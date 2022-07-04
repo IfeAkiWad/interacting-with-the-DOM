@@ -4,6 +4,6 @@
 let main = document.getElementById('main')
 main.addEventListener('click', clickAlert)
 
-function clickAlert() {
+function clickAlert(event) {
     alert('I was clicked!')
 }
