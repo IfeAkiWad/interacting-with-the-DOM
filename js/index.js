@@ -2,3 +2,8 @@
 // you can also load the code snippets in using your browser's console
 
 let main = document.getElementById('main')
+main.addEventListener('click', clickAlert)
+
+function clickAlert() {
+    alert('I was clicked!')
+}
